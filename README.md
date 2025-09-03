@@ -21,7 +21,7 @@ git clone https://github.com/amrinderguler/Hashira-Assignment
 Example:
 
 ```javascript
-const inputFile = 'input1.json'; // or 'input2.json'
+const inputFile = process.argv[2] || "input1.json"; or const inputFile = process.argv[2] || "input2.json";
 ```
 
 #### Run the project
@@ -49,7 +49,7 @@ node index.js
 Output:
 
 ```
-[Sample output for input1.json will appear here]
+3
 ```
 
 #### Using `input2.json`
@@ -61,13 +61,7 @@ node index.js
 Output:
 
 ```
-[Sample output for input2.json will appear here]
+79836264049851
 ```
-
----
-
-### Repository Link
-
-[Hashira-Assignment on GitHub](https://github.com/amrinderguler/Hashira-Assignment)
 
 ```
